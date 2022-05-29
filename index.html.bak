@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope 2022 by Hanz Cua</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/generator.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="http://areal52.ru/site/img/gemini.png">
+</head>
+
+<body>
+
+        <div class="chat show animation">
+    
+            <div class="chat show animation">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="chat-header-container down">
+                            <div class="chat-header-container-wrapper">
+                                <div class="chat-header-container-image-left">
+                                    <div class="chat-header-container-image">
+                                        <img src="img/Hanz-Cua12.png" alt="">
+                                    </div>
+                                    <div class="chat-header-container-image">
+                                        <img src="img/message-icon.png" alt="">
+                                    </div>
+                                    <div class="chat-header-container-image" style="color:white">
+                                        <span><b style="color:444">Master Hanz Cua Chat</b></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="chat-content">
+                        <div class="chat-content-container">
+                            <div class="chat-content-list">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<a href="https://www.seeyourfuture.online/hanztarotcode3?utm_source=DB6A56&utm_campaign=527A29&utm_content=AF3BEE&utm_medium=46E7B8" target="blank" id="cont_form" class="form-order">
+			<input type="submit" value="BUY NOW!" class="cb-submit" id="page1Submit"">
+			</a>
+    
+        </div>
+    
+    <script src="js/typed.js"></script>
+    <script src="js/main.js"></script>
+    
+    <span class="country_action" style="opacity: 0">whole Filipines</span>
+    <select name="country" id="select_city"></select>
+    <span class="new_price_val" style="opacity: 0"></span>
+    <span class="new_price_cur" style="opacity: 0"></span>
+    <script src="js/jquery.cookie.min.js"></script>
+    <script src="js/purl.min.js"></script>
+    <script src="js/jquery.inputmask.bundle.min.js"></script>
+    <span class="new_price_val"></span>
+    <script>
+        setInterval(function () {
+            let name_city = $('#new_price_val').text();
+            $('.new_price_val').text(name_city);
+            $('.new_price_cur').text($('#new_price_cur').text());
+        }, 300)
+    </script>
+</body>
+
+</html>
